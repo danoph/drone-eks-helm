@@ -25,7 +25,7 @@ secrets from kubernetes secrets in drone build config.
 In pipeline step, environment variables need to be set for EKS:
 ex:
 
-`
+```
 pipeline:
   ...
   rails-deploy:
@@ -38,7 +38,7 @@ pipeline:
    when:
      branch: dev
      event: [push, tag, deployment]
-`
+```
 
 ### Additional Notes
 
